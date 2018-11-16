@@ -78,6 +78,10 @@
 #elif defined(__linux__)
 #define HAX_PLATFORM_LINUX
 #include "linux/hax_types_linux.h"
+// BSD: DragonFly for now only
+#elif defined(__DragonFly__)
+#define HAX_PLATFORM_BSD
+#include "bsd/hax_types_bsd.h"
 // Windows
 #elif defined(_WIN32)
 #define HAX_PLATFORM_WINDOWS

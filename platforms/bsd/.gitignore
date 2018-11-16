@@ -1,0 +1,10 @@
+# Build
+@
+cpu
+cpu_base
+machine
+machine_base
+forwarder_x86_64/
+*.ko
+*.kld
+*.o

@@ -269,6 +269,9 @@ int hax_em64t_enabled(void);
 #ifdef HAX_PLATFORM_LINUX
 #include "linux/hax_linux.h"
 #endif
+#ifdef HAX_PLATFORM_BSD
+#include "bsd/hax_bsd.h"
+#endif
 #ifdef HAX_PLATFORM_WINDOWS
 #include "windows/hax_windows.h"
 #endif
